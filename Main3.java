@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int ticketPrice = 120;
+        int ticketsSold = 350;
+        int revenue = ticketPrice * ticketsSold;
+
+        System.out.println("Ticket Price = " + ticketPrice);
+        System.out.println("Tickets Sold = " + ticketsSold);
+        System.out.println("Revenue = " + revenue);
+    }
+}
